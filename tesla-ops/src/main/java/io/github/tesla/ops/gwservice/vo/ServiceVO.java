@@ -63,8 +63,6 @@ public class ServiceVO extends ServiceDTO {
                     BeanUtils.copyProperties(pluginDTO, pluginDO);
                     pluginDO.setPluginParam(EndpointRequestPluginMetadata.validate(pluginDO.getPluginType(),
                         pluginDO.getPluginParam(), this, endpointDTO));
-                    pluginDO.setPluginParam(EndpointResponsePluginMetadata.validate(pluginDO.getPluginType(),
-                        pluginDO.getPluginParam(), this, endpointDTO));
                     pluginDO.setGmtCreate(DateUtils.getTimestampNow());
                     pluginDO.setGmtModified(DateUtils.getTimestampNow());
                     endpointPluginDOS.add(pluginDO);
