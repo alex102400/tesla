@@ -11,7 +11,7 @@
 	</parent>
 	<artifactId>tesla-gateway</artifactId>
 	<name>tesla-gateway</name>
-	<version>1.0.0</version>
+	<version>1.0.1</version>
 	<dependencies>
 		<dependency>
 			<groupId>io.github.tesla</groupId>
